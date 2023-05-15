@@ -7,7 +7,7 @@
     align-items: center;
     margin-top: 2%;
     border-style: solid;
-    border-color: black;
+    border-color: rgb(44, 42, 46);
     border-radius: 10px;
     border-width: 5px;
     text-align: justify;
@@ -16,5 +16,9 @@
 
 #title {
     margin-right: 10%;
+}
+
+#forms01 {
+    font-weight: bold;
 }
 
