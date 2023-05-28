@@ -11,6 +11,7 @@ body {
 .inicial-text {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    color: #faa023;
 }
 
 h3 {
@@ -23,6 +24,7 @@ h3 {
     width: 50%;
     border-radius: 10px;
     padding: 1%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
 }
 
 #icone {
