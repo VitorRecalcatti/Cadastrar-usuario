@@ -1,0 +1,50 @@
+* {
+    margin: 1.5%;
+}
+
+body {
+    background-color: rgba(128, 128, 128, 0.216);
+}
+
+
+
+.title {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff9500;
+}
+
+
+#div-options {
+    padding: 1%;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 60%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+
+.options {
+    display: block;
+    margin-top: 6%;
+    background-color: #faa023;
+    border-radius: 3px;
+    border-style: none;
+    width: 28%;
+    height: 31px;
+    font-size: medium;
+    margin-left: 36%;
+}
+
+
+
+.dialog {
+    margin: 0 auto;
+    margin-top: 15%;
+    border-style: none;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+}
