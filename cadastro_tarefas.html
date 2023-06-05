@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style_tarefas.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <script src="script.js"></script>
+
+        <div id="div_dialog">
+            <h2>Adicionar Evento</h2>
+
+            <input type="text" placeholder="Nome da Tarefa" id="nome_tarefa">
+
+            <input type="text" placeholder="Nome do docente" id="nome_do">
+
+            <br>
+
+            <label for="">Dia da semana:</label>
+            <select name="" id="dia_semana">
+                <option value="">Segunda-feira</option>
+                <option value="">Terça-feira</option>
+                <option value="">Quarta-feira</option>
+                <option value="">Quinta-feira</option>
+                <option value="">Sexta-feira</option>
+            </select>
+
+            <br>
+
+            <label for="dhi">Hora inical:</label>
+            <input type="time" class="info_dd" name="dhi" id="dhi">
+
+            <label for="dhf">Hora Final:</label>
+            <input type="time" class="info_add" name="dhf" id="dhf">
+
+            <br>
+
+            <p></p>
+
+            <button type="button" id="concluido" onclick="converterintervalo(dhi, dhf)" >Concluir</button>
+            <ul id="listatarefas"></ul>
+        </div>
+
+</body>
+</html>
